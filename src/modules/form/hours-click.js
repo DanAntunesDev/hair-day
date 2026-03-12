@@ -1,9 +1,9 @@
 export function hoursClick() {
   const hours = document.querySelectorAll('.hour-available');
 
-
   hours.forEach(( available ) => {
     available.addEventListener("click", (selected) => {
+      
       // Remove a classe hours-selected de todas as li não selecionadas
       hours.forEach((hour) => {
         hour.classList.remove("hour-selected")
