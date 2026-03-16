@@ -24,5 +24,3 @@ git clone https://github.com/DanAntunesDev/hairday-booking-api
 npm install
 
 npm run dev
-
-## Estrutura
